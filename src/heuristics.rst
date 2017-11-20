@@ -1,4 +1,4 @@
 Эвристический подход
 ====================
 
-.. include:: img/img_9.png
+.. include:: /src/img/img_9.png
