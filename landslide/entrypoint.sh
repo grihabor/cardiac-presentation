@@ -7,7 +7,6 @@ echo "Theme: $LANDSLIDE_THEME"
 landslide \
     --embed \
     --theme="$LANDSLIDE_THEME" \
-    --watch \
     --math-output \
     --verbose \
     --destination=/build/index.html \
