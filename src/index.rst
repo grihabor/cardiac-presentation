@@ -12,8 +12,6 @@ Dice metric
 
 ``\[DM(S,M)=2\frac{|S\cap{}M|}{|S|+|M|}\]``
 
-``\[a=b\]``
-
 ----
 
 Метрики
@@ -22,7 +20,7 @@ Dice metric
 Jaccard index
 -------------
 
-.. math::
+``\[J(S,M)=\frac{|S\cap{}M|}{|S\cup{}M|}=\]``
  
 ----
 
