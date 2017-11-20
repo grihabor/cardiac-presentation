@@ -11,7 +11,12 @@ presentation: build
 		-v $(shell pwd)/src:/src \
 		-v $(shell pwd)/build:/build \
 		$(IMAGE) \
-		sh -c "cd /build; landslide /src/index.rst"
+		sh -c "cd /build; \
+			landslide \
+			--embed \
+			--theme=default \
+			--destination=index.html \
+			/src/index.rst"
 
 nginx:
 	cd nginx; make
