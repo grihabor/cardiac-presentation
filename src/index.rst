@@ -2,15 +2,25 @@ Cardiac presentation
 ====================
 
 ----
-
-First slide
-===========
+=======
+Метрики
+=======
  
-Smth here
+Dice metric
+===========
+
+.. math::
+
+    DM(S, M) = 2 \\frac{|S \\cap M|}{|S|+|M|}
 
 ----
+=======
+Метрики
+=======
 
-Second slide
-============
+Jaccard index
+=============
 
-content
+.. math::
+ 
+    
