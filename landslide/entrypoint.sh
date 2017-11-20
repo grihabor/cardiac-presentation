@@ -4,5 +4,5 @@ landslide \
     --embed \
     --math-output \
     --verbose \
-    /landslide/config
+    /landslide/config.cfg
     
