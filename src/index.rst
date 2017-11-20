@@ -20,7 +20,7 @@ Dice metric
 Jaccard index
 -------------
 
-``\[J(S,M)=\frac{|S\cap{}M|}{|S\cup{}M|}=\]``
+``\[J(S,M)=\frac{|S\cap{}M|}{|S\cup{}M|}=\frac{DM(S,M}{2-DM(S,M)}\]``
  
 ----
 
