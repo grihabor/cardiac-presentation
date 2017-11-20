@@ -8,6 +8,7 @@ RUN pip3 install --no-cache-dir \
 ENV LANDSLIDE_THEME default
 
 ADD entrypoint.sh /landslide/entrypoint.sh
+ADD config.cfg /landslide/config.cfg
 
 CMD ["/bin/sh",  "/landslide/entrypoint.sh"]
 
