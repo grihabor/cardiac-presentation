@@ -20,7 +20,7 @@ Jaccard index
 Hausdorff distance
 ------------------
 
-``\[\mathrm{d}_{H}(A,B)=\max\left\{\adjustlimits\sup_{a\in{}A}\inf_{b\in{}B}\mathrm{d}(a,b),\adjustlimits\sup_{b\in{}B}\inf_{a\in{}A}\mathrm{d}(a,b)\right\}\]``
+``\[\mathrm{d}_{H}(A,B)=\max\left\{\sup_{a\in{}A}\inf_{b\in{}B}\mathrm{d}(a,b),\sup_{b\in{}B}\inf_{a\in{}A}\mathrm{d}(a,b)\right\}\]``
 
 ----
 
