@@ -13,6 +13,5 @@
    :align: center
    :widths: auto
 
-   ------ ------
-   |orig| |pred|
-   ------ ------
+   * - |orig| 
+   * - |pred|
