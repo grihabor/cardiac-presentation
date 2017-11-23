@@ -16,3 +16,11 @@ Hausdorff distance
 
 ``\[\mathrm{d}_{H}(A,B)=\max\left\{\sup_{a\in{}A}\inf_{b\in{}B}\mathrm{d}(a,b),\sup_{b\in{}B}\inf_{a\in{}A}\mathrm{d}(a,b)\right\}\]``
 
+::
+
+    \begin{split}
+    \mathrm{d}_{H}(A,B)=\max
+    &\left\{\sup_{a\in{}A}\inf_{b\in{}B}\mathrm{d}(a,b),
+    &\sup_{b\in{}B}\inf_{a\in{}A}\mathrm{d}(a,b)\right\}
+    \end{split}
+
